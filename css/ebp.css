@@ -1,0 +1,79 @@
+/*
+    Easy Boiler Plate
+    Created By Tom Peregrine 03/01/2015 (DD/MM/YYYY)
+    Last Updated 03/01/2015 (DD/MM/YYYY)
+*/
+@font-face {
+    /* Sourced from google fonts - made by multiple designers*/
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url(http://fonts.gstatic.com/s/raleway/v9/WXRs6bFZChfzCx3pXob5o_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.ebp .header-font, .ebp-header-font {
+    font-family: 'Raleway', sans-serif; 
+}
+
+.ebp h1, .ebp-h1 {
+    font-size: 4em;
+    margin: 0.1em;
+}
+
+.ebp h2, .ebp-h2 {
+    font-size: 3em;
+    margin: 0.1em;
+}
+
+.ebp h3, .ebp-h3 {
+    font-size: 2.5em;
+    margin: 0.1em;
+}
+
+.ebp h4, .ebp-h4 {
+    font-size: 2em;
+    margin: 0.1em;
+}
+
+.ebp h5, .ebp-h5 {
+    font-size: 1.5em;
+    margin: 0.1em;
+}
+
+.ebp h6, .ebp-h6 {
+    font-size: 1em;
+    margin: 0.1em;
+}
+
+@media (max-width: 1000px) and (min-width: 670px){
+    .ebp h1, .ebp-h1 {
+        font-size: 3em;
+        margin: 0.1em;
+    }
+
+    .ebp h2, .ebp-h2 {
+        font-size: 2.5em;
+        margin: 0.1em;
+    }
+
+    .ebp h3, .ebp-h3 {
+        font-size: 2em;
+        margin: 0.1em;
+    }
+
+    .ebp h4, .ebp-h4 {
+        font-size: 1.5em;
+        margin: 0.1em;
+    }
+
+    .ebp h5, .ebp-h5 {
+        font-size: 1.3em;
+        margin: 0.1em;
+    }
+
+    .ebp h6, .ebp-h6 {
+        font-size: 1em;
+        margin: 0.1em;
+    }
+}
