@@ -12,6 +12,35 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
+.ebp .navbar, .ebp-navbar {
+    width: 90%;
+    padding: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+}
+
+.ebp .mobile-navbar, .ebp-mobile-navbar {
+    display: none;
+}
+.ebp .mobile-navbar-button, .ebp-mobile-navbar-button {
+    display: none;
+}
+
+.ebp .nav-list, .ebp-nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ebp .nav-list-item, .ebp-nav-list-item {
+    display: inline;
+}
+
+.ebp .nav-list .current, .ebp-nav-list-item .current {
+    //TODO: STYLE CURRENT NAV
+}
+
 .ebp .header-font, .ebp-header-font {
     font-family: 'Raleway', sans-serif; 
 }
@@ -46,34 +75,23 @@
     margin: 0.1em;
 }
 
-@media (max-width: 1000px) and (min-width: 670px){
-    .ebp h1, .ebp-h1 {
-        font-size: 3em;
-        margin: 0.1em;
-    }
+@media (max-width: 1000px) and (min-width: 500px){
+    /*Medium Device*/
+}
 
-    .ebp h2, .ebp-h2 {
-        font-size: 2.5em;
-        margin: 0.1em;
+@media (max-width: 499px){
+    /*Mobile*/
+    .ebp .mobile-navbar, .ebp-mobile-navbar {
+        display: block;
+        padding: 0;
+        margin: 0;
     }
-
-    .ebp h3, .ebp-h3 {
-        font-size: 2em;
-        margin: 0.1em;
+    .ebp .mobile-navbar-button, .ebp-mobile-navbar-button {
+        display: inline-block;
     }
-
-    .ebp h4, .ebp-h4 {
-        font-size: 1.5em;
-        margin: 0.1em;
-    }
-
-    .ebp h5, .ebp-h5 {
-        font-size: 1.3em;
-        margin: 0.1em;
-    }
-
-    .ebp h6, .ebp-h6 {
-        font-size: 1em;
-        margin: 0.1em;
+    .ebp .nav-list-item, .ebp-nav-list-item {
+        display: block;
+        padding: 0;
+        margin: 0;
     }
 }
