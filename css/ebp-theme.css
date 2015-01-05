@@ -1,0 +1,54 @@
+@font-face {
+    /* Sourced from google fonts - made by multiple designers*/
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url(http://fonts.gstatic.com/s/raleway/v9/WXRs6bFZChfzCx3pXob5o_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+      /* Sourced from google fonts - made by Christian Roberston*/
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      src: url(http://fonts.gstatic.com/s/roboto/v14/fg2nPs59wPnJ0blURyMU3PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.ebp .navbar, .ebp-navbar {
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ebp .mobile-navbar, .ebp-mobile-navbar {
+    background-color: #eaeaea;
+    color: #2f2f2f;
+    font-size: 1.1em;
+}
+
+.ebp .mobile-navbar-button, .ebp-mobile-navbar-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    color: #2f2f2f;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    float: right;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #a2a2a2;
+    background-color: #eaeaea;
+    border-style:solid;
+}
+
+.ebp .nav-list, .ebp-nav-list {
+}
+
+.ebp .nav-list-item, .ebp-nav-list-item {
+    color: #2f2f2f;
+    padding: 1%;
+}
+
+.ebp .nav-list .current, .ebp-nav-list-item .current {
+    background-color: #1f1f1f;
+}
